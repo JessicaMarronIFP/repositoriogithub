@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class notas {
 	//declaramos la variables que nos hacen falta
+	
 	double uf1, uf2, uf3;
 	double acu1, acu2, acu3, def;
+	
 	//utilizames ecaner para poder introducir datos
 	Scanner entrada = new Scanner(System.in);
 	
@@ -70,7 +72,7 @@ public class notas {
 		
 		//hasta aqui la tenemos calculada peor no la mostramos
 	}
-	public void Mostrar() {
+	public void MostrarNotas() {
 		//print ln lo que hace es que al terminar el print baja la linea
 		System.out.println(" notas introducidas son:");
 		System.out.println(" nota1 = " + uf1);
@@ -110,7 +112,7 @@ public class notas {
 
 		fc.Calculonotas();
 		
-		fc.Mostrar();
+		fc.MostrarNotas();
 		
 		fc.aprobado();
 		
