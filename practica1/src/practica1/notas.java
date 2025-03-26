@@ -63,7 +63,7 @@ public class notas {
 	}
 	// metodo para calcular nota
 	
-	public void Calculonotas() {
+	public void Calcularnotas() {
 		acu1= uf1*0.35;
 		acu2 = uf2 * 0.35;
 		acu3 = uf3 * 0.30;
@@ -110,7 +110,7 @@ public class notas {
 		fc.comprobacion();
 		
 
-		fc.Calculonotas();
+		fc.Calcularnotas();
 		
 		fc.MostrarNotas();
 		
