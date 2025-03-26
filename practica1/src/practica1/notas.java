@@ -92,7 +92,7 @@ public class notas {
 			if(def<5 && def>=0) {
 				System.out.println("suspendio");
 			}else {
-				if (def>=5 && def<=10 ) {
+				if (def>=6 && def<=10 ) {
 				System.out.println("aprobado");
 				}else {
 					System.out.println(" error en la notas");
