@@ -30,7 +30,7 @@ public class notas {
 		
 		uf3= entrada.nextDouble();
 		
-		System.out.print("Gracias por usar nuestra app");
+		System.out.print("Gracias por usar nuestra app para calcular notas");
 		
 	
 	}
