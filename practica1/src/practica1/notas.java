@@ -30,6 +30,8 @@ public class notas {
 		
 		uf3= entrada.nextDouble();
 		
+		System.out.print("Gracias por usar nuestra app");
+		
 	
 	}
 	
@@ -95,7 +97,7 @@ public class notas {
 				if (def>=6 && def<=10 ) {
 				System.out.println("aprobado");
 				}else {
-					System.out.println(" error en la notas");
+					System.out.println("Error en la notas");
 				}
 			}
 		}
