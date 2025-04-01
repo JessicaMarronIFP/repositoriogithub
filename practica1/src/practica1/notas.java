@@ -30,7 +30,7 @@ public class notas {
 		
 		uf3= entrada.nextDouble();
 		
-		
+		System.out.print("Estos son los resultados obtenidos");
 	
 	}
 	
